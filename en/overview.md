@@ -9,4 +9,4 @@ Security Advisor checks the security setting status of NHN Cloud organization an
 * Inspects access settings to RDS and blocks unnecessary access.
 * Provides periodic auto inspection and sends the result via email.
 
-## Service Procedure
+
