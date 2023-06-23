@@ -9,4 +9,16 @@ Security Advisor는 고객이 생성한 NHN Cloud 조직 및 프로젝트 리소
 * RDS에 대한 접근 설정을 점검하여 불필요한 접근을 차단할 수 있습니다.
 * 주기적인 자동 점검 기능을 제공하고 결과를 이메일로 전송할 수 있습니다.
 
-## 서비스 절차
+## 점검 대상 및 서비스 리전
+### 선택 점검 항목의 프로젝트 항목 점검 대상 리소스
+|구분|점검 항목|대상 리소스|비고|
+|---|---|---|---|
+|프로젝트|Security Groups 점검|Instance, Security Groups|Database Instance, NKS 클러스터 제외|
+|프로젝트|Database Security Groups 점검|Database Instance(MS-SQL Instance, MySQL Instance, PostgreSQL Instance, CUBIRD Instance, MariaDB Instance, Tibero Instance, Redis Instance), Security Groups|
+|프로젝트|RDS 접근제어 점검|RDS for MySQL, RDS for MariaDB, RDS for MS-SQL|RDS for MariaDB, RDS for MS-SQL는 판교 리전에서만 서비스 되므로 판교 리전에서만 점검 가능|
+
+### 선택 점검 리전 별 지원 범위
+|구분|지원 리전|
+|---|---|
+|조직으로 구분 된 점검 항목|한국(판교) 리전한국(평촌) 리전일본(도쿄) 리전미국(캘리포니아) 리전|
+|프로젝트로 구분 된 점검 항목|한국(판교) 리전한국(평촌) 리전일본(도쿄) 리전|
