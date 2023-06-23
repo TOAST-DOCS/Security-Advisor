@@ -13,7 +13,7 @@ Security Advisor는 고객이 생성한 NHN Cloud 조직 및 프로젝트 리소
 ### 선택 점검 항목의 프로젝트 항목 점검 대상 리소스
 |구분|점검 항목|대상 리소스|비고|
 |---|---|---|---|
-|프로젝트|Security Groups 점검|Instance, Security Groups|Database Instance, NKS 클러스터 제외|
+|프로젝트&nbsp|Security Groups 점검|Instance, Security Groups|Database Instance, NKS 클러스터 제외|
 |프로젝트|Database Security Groups 점검|Database Instance(MS-SQL Instance, MySQL Instance, PostgreSQL Instance, CUBIRD Instance, MariaDB Instance, Tibero Instance, Redis Instance), Security Groups|
 |프로젝트|RDS 접근제어 점검|RDS for MySQL, RDS for MariaDB, RDS for MS-SQL|RDS for MariaDB, RDS for MS-SQL는 판교 리전에서만 서비스 되므로 판교 리전에서만 점검 가능|
 
