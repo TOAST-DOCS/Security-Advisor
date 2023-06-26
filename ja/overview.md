@@ -21,4 +21,4 @@ Security Advisorは、顧客が作成したNHN Cloud組織およびプロジェ�
 |---|---|---|---|
 |プロジェクト &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |Security Groups点検|Instance, Security Groups|Database Instance、NKSクラスタ除外|
 |プロジェクト &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Database Security Groups点検|Database Instance(MS-SQL Instance, MySQL Instance, PostgreSQL Instance, CUBIRD Instance, MariaDB Instance, Tibero Instance, Redis Instance), Security Groups|
-|プロジェクト &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |RDSアクセス制御点検 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RDS for MariaDB, RDS for MS-SQLはパンギョリージョンでのみサービスされているため パンギョリージョンでのみ点検可能|
+|プロジェクト &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |RDSアクセス制御点検 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RDS for MySQL, RDS for MariaDB, RDS for MS-SQL|RDS for MariaDB, RDS for MS-SQLはパンギョリージョンでのみサービスされているため パンギョリージョンでのみ点検可能|
