@@ -35,3 +35,9 @@ Security Advisor는 프로젝트 서비스입니다.
 ||PERMISSION|Security Advisor 서비스를 활성화하거나 비활성화 할 수 있습니다.<br>- 서비스 Enable(활성화), Disable(비활성화)
 ||VIEWER|Security Advisor 서비스 점검 결과를 확인할 수 있습니다.<br>- 대시보드 보기, 엑셀 다운로드<br>- 점검 항목 기본 정보 보기, 탐지 리소스 보기, 예외 리소스 보기<br>* Viewer 역할에는 “설정＂화면을 제공하지 않습니다.
 
+## 서비스 사용 절차
+### 서비스 활성화 절차
+서비스 활성화 권한이 있는 사용자로 NHN Cloud를 로그인합니다. Security 카테고리에서 Security Advisor를 클릭하여 서비스를 활성화합니다.
+![이미지1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_01.png)
+
+
