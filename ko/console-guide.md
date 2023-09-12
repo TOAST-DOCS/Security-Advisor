@@ -19,7 +19,7 @@ Security Advisor 점검 항목에서 점검한 결과를 확인할 수 있습니
   - 엑셀 파일에는 점검 항목에서 가장 마지막으로 선택 점검한 결과(점검 항목의 기본 정보와 탐지 리소스, 점검 시간)가 저장되어 있습니다.
   - 엑셀 파일에는 예외 리소스와 설정 정보는 포함되지 않습니다.
   - 선택 점검 결과가 없는(서비스 활성화 이후 단 한번도 선택 점검하지 않은) 경우 엑셀 파일을 다운로드 할 수 있지만 파일은 열리지 않습니다.
-![이미지3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_03.png)
+![이미지3-1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_03-1.png)
 
 ## 점검 항목
 
