@@ -1,4 +1,4 @@
-![image](https://github.com/TOAST-DOCS/Security-Advisor/assets/128007571/c619f56c-70b9-4354-939e-da29949b7425)## Security > Security Advisor > 콘솔 사용 가이드
+## Security > Security Advisor > 콘솔 사용 가이드
 
 Security Advisor의 기능과 사용하는 방법을 설명합니다.
 
