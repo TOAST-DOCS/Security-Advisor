@@ -54,7 +54,6 @@ Security Advisor 점검 항목에서 점검한 결과를 확인할 수 있습니
 * 탐지 리소스가 예외 처리 되면 점검 항목의 상태는 남아 있는 탐지 리소스 기준으로 상태가 표시 됩니다.
 * 변경 버튼을 클릭하여 메모를 작성할 수 있습니다.
 * 원하는 항목을 체크하여 **예외 해제**를 클릭하면 점검 대상에 포함시킬 수 있습니다.
-![이미지10](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_10.png)
 
 
 ## 설정
