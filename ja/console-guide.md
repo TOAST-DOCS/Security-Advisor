@@ -51,7 +51,6 @@ Security Advisor点検項目で点検した結果を確認できます。
 ### 例外リスト
 
 * 点検例外処理された項目を確認できます。
-* 検出リソースが例外処理されると、点検項目の状態は残っている検出リソースに基づいて状態が表示されます。
 * **変更**をクリックしてメモを作成できます。
 * 希望する項目をチェックして**例外解除**をクリックすると、点検対象に含めることができます。
 ![画像10](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_jp_11.png)
