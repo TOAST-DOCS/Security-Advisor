@@ -65,6 +65,7 @@ After change the settings, must click **Save** to apply the changes.
 
 * Set the email address of the administrator who will receive the inspection results. Make sure to enter the email address correctly.
 * The email is not a required field.
+
 ![Image 8](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_08.png)
 
 ### Inspection Settings
