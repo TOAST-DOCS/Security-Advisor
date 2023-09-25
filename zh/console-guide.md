@@ -51,7 +51,6 @@ You can check the details of inspection results and exclude unnecessary items fr
 ### Exception List
 
 * You can find the items excluded from inspection.
-* When a detected resource is excluded from inspection, the status of the inspection item is displayed based on the remaining detected resources.
 * You can write a note by clicking **Change**.
 * If you check any of the excluded items and click **Disable Exception**, the item can be included in inspection.
 ![Image 10](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_11.png)
