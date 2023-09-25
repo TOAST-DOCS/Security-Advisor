@@ -19,7 +19,7 @@ The alert criteria for individual inspection items are applied differently for e
   - The Excel file stores the results of the last selected inspection item (basic information of the inspection item, detected resources, and inspection time).
   - The Excel file does not include excepted resources and configuration information.
   - If there is no inspection result because the selected inspection has not been performed even once after activating the service, the Excel file can be downloaded, but cannot open.
-![Image 3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_03.png)
+![Image 3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_03.png)
 
 
 ## Inspection Item
@@ -32,21 +32,21 @@ You can check the details of inspection results and exclude unnecessary items fr
 2. Check items to inspect and click **Inspect Selected**.
 3. Once the inspection is complete, check the results for each inspection item.
 4. For items classified by project, change the region and perform selected inspection.
-![Image 4](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_04.png)
+![Image 4](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_04.png)
 
 ### Basic Information
 
 * Provides descriptions of the inspection items.
 * You can check the number of detected resources and excepted resources, and last inspection date.
 * Allows you to confirm alert criteria and take action on detected resources through recommendations.
-![Image 5](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_05.png)
+![Image 5](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_05.png)
 
 ### Detected Resource
 
 * You can view the details of the resources detected based on the alert criteria for each item.
 * If you check any of the detected resources and click **Except Selected**, those resources will be excluded on the next inspection.
-![Imaage 6](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_06.png)
-![Image 7](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_07.png)
+![Imaage 6](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_06.png)
+![Image 7](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_07.png)
 
 ### Exception List
 
@@ -54,7 +54,7 @@ You can check the details of inspection results and exclude unnecessary items fr
 * When a detected resource is excluded from inspection, the status of the inspection item is displayed based on the remaining detected resources.
 * You can write a note by clicking **Change**.
 * If you check any of the excluded items and click **Disable Exception**, the item can be included in inspection.
-![Image 10](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_11.png)
+![Image 10](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_11.png)
 ## Settings
 
 You can run inspection periodically at a desired time by setting up auto inspection.
@@ -66,9 +66,9 @@ After change the settings, must click **Save** to apply the changes.
 * Set the email address of the administrator who will receive the inspection results. Make sure to enter the email address correctly.
 * The email is not a required field.
 ![](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_08.png)Image 8![](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_08.png)
-![Image 8](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_08.png)
+![Image 8](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_08.png)
 ### Inspection Settings
 * You can enable auto inspection by setting **Inspection Cycle**. The inspection result is automatically reflected in the console, and sent to the email address if set.
 * You can select **Auto Inspection Item**.
-![Image 9](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_09.png)
+![Image 9](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_09.png)
 
