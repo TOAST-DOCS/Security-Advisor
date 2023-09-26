@@ -29,9 +29,9 @@ Security Advisor는 프로젝트 서비스입니다.
 프로젝트 관리자는 프로젝트에 등록된 NHN Cloud 회원 또는 IAM 멤버에 역할을 부여할 수 있습니다.
 |서비스|역할|설명&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |---|---|---|
-|Security Advisor|ADMIN|Security Advisor의 모든 서비스를 관리할 수 있습니다.<br> - Security Advisor 서비스 Create(생성), Read(읽기), Update(갱신), Delete(삭제)<br><br>Security Advisor 서비스가 제공하는 모든 기능을 사용할 수 있습니다.<br>- 대시보드 보기, 엑셀 저장<br>- 점검 항목 선택 점검, 점검 항목 기본 정보 보기, 탐지 리소스 보기, 탐지 리소스 선택 예외, 예외 리소스 보기, 예외 리소스 예외 해제<br>- 결과 수신 설정, 자동 점검 설정
-||PERMISSION|Security Advisor 서비스를 활성화하거나 비활성화할 수 있습니다.<br>- 서비스 Enable(활성화), Disable(비활성화)
-||VIEWER|Security Advisor 서비스 점검 결과를 확인할 수 있습니다.<br>- 대시보드 보기, 엑셀 다운로드<br>- 점검 항목 기본 정보 보기, 탐지 리소스 보기, 예외 리소스 보기<br>* VIEWER 역할에는 '설정' 화면을 제공하지 않습니다.
+|Security Advisor|ADMIN|Security Advisor의 모든 서비스를 관리할 수 있습니다.<br> - Security Advisor 서비스 Create(생성), Read(읽기), Update(갱신), Delete(삭제)<br><br>Security Advisor 서비스가 제공하는 모든 기능을 사용할 수 있습니다.<br>- 대시보드 보기, 엑셀 저장<br>- 점검 항목 선택 점검, 점검 항목 기본 정보 보기, 탐지 리소스 보기, 탐지 리소스 선택 예외, 예외 리소스 보기, 예외 리소스 예외 해제<br>- 결과 수신 설정, 자동 점검 설정|
+||PERMISSION|Security Advisor 서비스를 활성화하거나 비활성화할 수 있습니다.<br>- 서비스 Enable(활성화), Disable(비활성화)|
+||VIEWER|Security Advisor 서비스 점검 결과를 확인할 수 있습니다.<br>- 대시보드 보기, 엑셀 다운로드<br>- 점검 항목 기본 정보 보기, 탐지 리소스 보기, 예외 리소스 보기<br>* VIEWER 역할에는 '설정' 화면을 제공하지 않습니다.|
 
 ## 서비스 사용 절차
 ### 서비스 활성화 절차
