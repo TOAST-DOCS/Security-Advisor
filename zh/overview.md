@@ -29,9 +29,9 @@ Security Advisor is a project service.
 Project managers can grant roles to NHN Cloud members or IAM members registered in the project.
 |Service|Role|Description |
 |---|---|---|
-|Security Advisor|ADMIN|You can manage all services of Security Advisor.<br> Create, Read, Update, Delete the Security Advisor service<br><br>You can use all the features provided by the Security Advisor service.<br>- View dashboard, save to Excel<br>- Selected inspection, view inspection item basic information, view detected resources, selected exception of detected resources, view excepted resources, disable exception of resources<br>- Result reception settings, auto inspection settings
-||PERMISSION|You can enable or disable the Security Advisor service.<br>- Service Enable, Disable
-||VIEWER|You can check the Security Advisor service inspection results.<br>- View dashboard, download Excel<br>- View inspection item basic information, view detected resources, view excepted resources<br>\* The 'Settings' screen is not provided for the VIEWER role.
+|Security Advisor|ADMIN|You can manage all services of Security Advisor.<br> Create, Read, Update, Delete the Security Advisor service<br><br>You can use all the features provided by the Security Advisor service.<br>- View dashboard, save to Excel<br>- Selected inspection, view inspection item basic information, view detected resources, selected exception of detected resources, view excepted resources, disable exception of resources<br>- Result reception settings, auto inspection settings|
+||PERMISSION|You can enable or disable the Security Advisor service.<br>- Service Enable, Disable|
+||VIEWER|You can check the Security Advisor service inspection results.<br>- View dashboard, download Excel<br>- View inspection item basic information, view detected resources, view excepted resources<br>\* The 'Settings' screen is not provided for the VIEWER role.|
 
 ## Service Usage Procedures
 ### Service Activation Procedure
