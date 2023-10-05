@@ -27,6 +27,7 @@ Security Advisorは、顧客が作成したNHN Cloud組織およびプロジェ�
 
 Security Advisorはプロジェクトサービスです。
 プロジェクト管理者は、プロジェクトに登録されたNHN Cloud会員またはIAMメンバーにロールを付与できます。
+
 |サービス|ロール|説明&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |---|---|---|
 |Security Advisor|ADMIN|Security Advisorのすべてのサービスを管理できます。<br> - Security AdvisorサービスCreate(作成)、Read(読み取り)、Update(更新)、Delete(削除)<br><br>Security Advisorサービスが提供するすべての機能を使用できます。<br>- ダッシュボード表示、Excel保存<br>- 点検項目の選択点検、点検項目の基本情報表示、検出リソースの表示、検出リソースの選択例外、例外リソースの表示、例外リソースの例外解除<br>- 結果受信設定、自動点検設定|
