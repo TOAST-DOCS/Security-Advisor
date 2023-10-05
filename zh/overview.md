@@ -27,6 +27,7 @@ Security Advisor checks the security setting status of NHN Cloud organization an
 
 Security Advisor is a project service.
 Project managers can grant roles to NHN Cloud members or IAM members registered in the project.
+
 |Service|Role|Description |
 |---|---|---|
 |Security Advisor|ADMIN|You can manage all services of Security Advisor.<br> Create, Read, Update, Delete the Security Advisor service<br><br>You can use all the features provided by the Security Advisor service.<br>- View dashboard, save to Excel<br>- Selected inspection, view inspection item basic information, view detected resources, selected exception of detected resources, view excepted resources, disable exception of resources<br>- Result reception settings, auto inspection settings|
