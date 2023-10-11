@@ -26,7 +26,7 @@ Security Advisor는 고객이 생성한 NHN Cloud 조직 및 프로젝트 리소
 ## 프로젝트 멤버 서비스 이용 역할
 
 Security Advisor는 프로젝트 서비스입니다.
-프로젝트 관리자는 프로젝트에 등록된 NHN Cloud 회원 또는 IAM 멤버에 역할을 부여할 수 있습니다.
+프로젝트 관리자는 프로젝트에 등록된 NHN Cloud 회원 또는 IAM 멤버에 역할을 부여할 수 있습니다..
 
 |서비스|역할|설명&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |---|---|---|
