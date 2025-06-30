@@ -117,7 +117,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 | <span style="">inspectionCycle</span> | Body | <span style="">Object</span> | X | <span style="">점검 주기 설정</span> |
 | <span style="">inspectionCycle.isWeek</span> | Body | <span style="">Boolean</span> | X | <span style="">주 단위 선택 여부</span> |
 | <span style="">inspectionCycle.time</span> | Body | <span style="">String(hh:mm)</span> | X | <span style="">점검 진행 시간(00:00)</span> |
-| <span style="">inspectionCycle.day</span> | Body | <span style="">integer</span> | X | <span style="">점검 진행 할 요일(일요일이 1부터 시작)</span> |
+| <span style="">inspectionCycle.day</span> | Body | <span style="">Integer</span> | X | <span style="">점검 진행 요일(일요일이 1부터 시작)</span> |
 | <span style="">isWhole</span> | Body | <span style="">boolean</span> | X | <span style="">전체 점검 선택 여부</span> |
 
 <details>
