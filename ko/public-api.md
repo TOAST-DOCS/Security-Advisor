@@ -1,5 +1,5 @@
 ## Security > Security Advisor > API 가이드
-Security Advisor Public API를 설명 합니다.
+Security Advisor Public API를 설명합니다.
 ## 공통 준비 사항
 API 사용을 위해서는 API 엔드포인트와 토큰이 필요합니다.
 
