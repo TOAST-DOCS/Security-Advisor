@@ -37,7 +37,7 @@ API를 사용하려면 다음과 같은 정보가 필요합니다.
 * 모든 응답 코드는 공통의 Response body를 포함합니다.
     * 공통 Response body
 
-| 이름 | 종류 | 형식 | 설명 |
+| 이름 | 종류 | 타입 | 설명 |
 | --- | --- | --- | --- |
 | header | Body | Object |  |
 | header.isSuccessful | Body | Boolean | true: 정상<br>false: 오류 |
