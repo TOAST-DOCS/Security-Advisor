@@ -175,8 +175,6 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 | appKey | URL | String | O | 서비스 Appkey |
 | region | Query | String | O | 리전 코드(KR1: 판교, KR2: 평촌,<br>JP1: 일본, US1: 미국) |
 | lang | Query | String | O | 언어 코드(KO: 한글, EN: 영어, JA: 일본어) |
-| page | Query | Integer | O | 조회할 페이지 번호 |
-| size | Query | Integer | O | 조회할 페이지 크기 |
 
 #### 응답
 
