@@ -186,7 +186,7 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 | status | Array Body | String | O | 점검 결과(critical: 위험, warning: 주의, interest: 관심, good: 양호) |
 | inspectRange | Array Body | String | O | 점검 대상 범위(PROJECT: 프로젝트, ORG: 조직) |
 | inspectContent | Array Body | String | O | 점검 대상 제목 |
-| detectionCount | Array Body | integer | O | 탐지 개수 |
+| detectionCount | Array Body | Integer | O | 탐지 개수 |
 | exceptionCount | Array Body | integer | O | 예외 개수 |
 | inspectTime | Array Body | string | O | 점검 시간(datetime) |
 
