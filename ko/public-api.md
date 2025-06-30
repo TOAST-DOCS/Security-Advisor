@@ -44,7 +44,7 @@ API를 사용하려면 다음과 같은 정보가 필요합니다.
 | header.resultCode | Body | Integer | 1: 정상<br>그 외: 오류 |
 | header.resultMessage | Body | String | "SUCCESS": 정상<br>그 외: 오류 원인 메시지 |
 
-* <span style="color:rgb(49, 51, 56);">공통 response body 외 자세한 응답 결과는 응답 본문 헤더를 참고합니다.</span>
+* <span style="color:rgb(49, 51, 56);">공통 Response body 외 자세한 응답 결과는 응답 본문 헤더를 참고합니다.</span>
 
 > [주의] API 응답에 가이드에 명시되지 않은 필드가 나타날 수 있습니다. 이런 필드는 NHN Cloud 내부 용도로 사용되며 사전 공지 없이 변경될 수 있으므로 사용하지 않습니다.
 
