@@ -170,7 +170,7 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 
 이 API는 요청 본문을 요구하지 않습니다.
 
-| 이름 | 종류 | 형식 | 필수 | 설명 |
+| 이름 | 구분 | 타입 | 필수 | 설명 |
 | --- | --- | --- | --- | --- |
 | appKey | URL | String | O | 서비스 Appkey |
 | region | Query | String | O | 리전 코드(KR1: 판교, KR2: 평촌,<br>JP1: 일본, US1: 미국) |
