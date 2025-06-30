@@ -109,16 +109,16 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 
 #### 응답
 
-| 이름 | 구분 | 타입 | 필수 | 설명 |
-| --- | --- | --- | --- | --- |
-| <span style="">emails</span> | Body | <span style="">Array</span> | O | <span style="">점검 완료 시 완료 메일을</span><br><span style="">수신할 이메일 주소 목록</span> |
-| <span style="">isEnableAutoInspect</span> | Body | <span style="">Boolean</span> | O | <span style="">자동 점검 설정 여부</span><br><span style="">(해당 값이 false면 나머지 설정 무시)</span> |
-| <span style="">inspectionList</span> | Body | <span style="">Array</span> | X | <span style="">자동 점검 진행 시 선택한 항목</span> |
-| <span style="">inspectionCycle</span> | Body | <span style="">Object</span> | X | <span style="">점검 주기 설정</span> |
-| <span style="">inspectionCycle.isWeek</span> | Body | <span style="">Boolean</span> | X | <span style="">주 단위 선택 여부</span> |
-| <span style="">inspectionCycle.time</span> | Body | <span style="">String(hh:mm)</span> | X | <span style="">점검 진행 시간(00:00)</span> |
-| <span style="">inspectionCycle.day</span> | Body | <span style="">Integer</span> | X | <span style="">점검 진행 요일(일요일이 1부터 시작)</span> |
-| <span style="">isWhole</span> | Body | <span style="">Boolean</span> | X | <span style="">전체 점검 선택 여부</span> |
+| 이름 | 타입 | 필수 | 설명 |
+| --- | --- | --- | --- |
+| <span style="">emails</span> | <span style="">Array</span> | O | <span style="">점검 완료 시 완료 메일을</span><br><span style="">수신할 이메일 주소 목록</span> |
+| <span style="">isEnableAutoInspect</span> | <span style="">Boolean</span> | O | <span style="">자동 점검 설정 여부</span><br><span style="">(해당 값이 false면 나머지 설정 무시)</span> |
+| <span style="">inspectionList</span> | <span style="">Array</span> | X | <span style="">자동 점검 진행 시 선택한 항목</span> |
+| <span style="">inspectionCycle</span> | <span style="">Object</span> | X | <span style="">점검 주기 설정</span> |
+| <span style="">inspectionCycle.isWeek</span> | <span style="">Boolean</span> | X | <span style="">주 단위 선택 여부</span> |
+| <span style="">inspectionCycle.time</span> | <span style="">String(hh:mm)</span> | X | <span style="">점검 진행 시간(00:00)</span> |
+| <span style="">inspectionCycle.day</span> | <span style="">Integer</span> | X | <span style="">점검 진행 요일(일요일이 1부터 시작)</span> |
+| <span style="">isWhole</span> | <span style="">Boolean</span> | X | <span style="">전체 점검 선택 여부</span> |
 
 <details>
   <summary>예시</summary>
