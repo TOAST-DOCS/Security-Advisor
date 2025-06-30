@@ -113,7 +113,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 | --- | --- | --- | --- | --- |
 | <span style="">emails</span> | Body | <span style="">Array</span> | O | <span style="">점검 완료 시 완료 메일을</span><br><span style="">수신할 이메일 주소 목록</span> |
 | <span style="">isEnableAutoInspect</span> | Body | <span style="">Boolean</span> | O | <span style="">자동 점검 설정 여부</span><br><span style="">(해당 값이 false면 나머지 설정 무시)</span> |
-| <span style="">inspectionList</span> | Body | <span style="">array</span> | X | <span style="">자동 점검 진행시 선택한 항목</span> |
+| <span style="">inspectionList</span> | Body | <span style="">Array</span> | X | <span style="">자동 점검 진행 시 선택한 항목</span> |
 | <span style="">inspectionCycle</span> | Body | <span style="">object</span> | X | <span style="">점검 주기 설정</span> |
 | <span style="">inspectionCycle.isWeek</span> | Body | <span style="">boolean</span> | X | <span style="">주 단위를 선택했는지 여부</span> |
 | <span style="">inspectionCycle.time</span> | Body | <span style="">string(hh:mm)</span> | X | <span style="">점검 진행 할 시간(00:00)</span> |
