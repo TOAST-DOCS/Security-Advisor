@@ -37,12 +37,12 @@ API를 사용하려면 다음과 같은 정보가 필요합니다.
 * 모든 응답 코드는 공통의 Response body를 포함합니다.
     * 공통 Response body
 
-| 이름 | 종류 | 타입 | 설명 |
-| --- | --- | --- | --- |
-| header | Body | Object |  |
-| header.isSuccessful | Body | Boolean | true: 정상<br>false: 오류 |
-| header.resultCode | Body | Integer | 1: 정상<br>그 외: 오류 |
-| header.resultMessage | Body | String | "SUCCESS": 정상<br>그 외: 오류 원인 메시지 |
+| 이름 | 타입 | 설명 |
+| --- | --- | --- |
+| header | Object |  |
+| header.isSuccessful | Boolean | true: 정상<br>false: 오류 |
+| header.resultCode | Integer | 1: 정상<br>그 외: 오류 |
+| header.resultMessage | String | "SUCCESS": 정상<br>그 외: 오류 원인 메시지 |
 
 * <span style="color:rgb(49, 51, 56);">공통 Response body 외 자세한 응답 결과는 응답 본문 헤더를 참고합니다.</span>
 
