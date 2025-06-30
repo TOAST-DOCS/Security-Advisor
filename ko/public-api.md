@@ -67,7 +67,7 @@ GET "/advisor/v1.0/appKey/{appKey}/last_inspection_date"
 
 ##### 응답
 
-| 이름 | 종류 | 형식 | 필수 | 설명 |
+| 이름 | 구분 | 타입  | 필수 | 설명 |
 | --- | --- | --- | --- | --- |
 | latestInspectionTime | Body | String | O | 최종 점검 날짜(datetime) |
 
