@@ -188,7 +188,7 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 | inspectContent | Array Body | String | O | 점검 대상 제목 |
 | detectionCount | Array Body | Integer | O | 탐지 개수 |
 | exceptionCount | Array Body | integer | O | 예외 개수 |
-| inspectTime | Array Body | string | O | 점검 시간(datetime) |
+| inspectTime | Array Body | String | O | 점검 시간(datetime) |
 
 <details>
   <summary>예시</summary>
