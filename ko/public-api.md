@@ -109,7 +109,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 
 #### 응답
 
-| 이름 | 종류 | 형식 | 필수 | 설명 |
+| 이름 | 구분 | 타입 | 필수 | 설명 |
 | --- | --- | --- | --- | --- |
 | <span style="">emails</span> | Body | <span style="">Array</span> | O | <span style="">점검 완료 시 완료 메일을</span><br><span style="">수신할 이메일 주소 목록</span> |
 | <span style="">isEnableAutoInspect</span> | Body | <span style="">Boolean</span> | O | <span style="">자동 점검 설정 여부</span><br><span style="">(해당 값이 false면 나머지 설정 무시)</span> |
