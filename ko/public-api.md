@@ -182,7 +182,7 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 
 | 이름 | 종류 | 형식 | 필수 | 설명 |
 | --- | --- | --- | --- | --- |
-| ruleNo | Array Body | integer | O | 점검 항목 번호 |
+| ruleNo | Array Body | Integer | O | 점검 항목 번호 |
 | status | Array Body | string | O | 점검 결과(critical: 위험, warning: 주의, interest: 관심, good: 양호) |
 | inspectRange | Array Body | string | O | 점검 대상 범위(PROJECT: 프로젝트, ORG: 조직) |
 | inspectContent | Array Body | string | O | 점검 대상 제목 |
