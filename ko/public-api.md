@@ -35,7 +35,7 @@ API를 사용하려면 다음과 같은 정보가 필요합니다.
     * *405 Method Not Allowed*
     * *500 Internal Server Error*
 * 모든 응답 코드는 공통의 Response body를 포함합니다.
-    * 공통 response body
+    * 공통 Response body
 
 | 이름 | 종류 | 형식 | 설명 |
 | --- | --- | --- | --- |
