@@ -180,7 +180,7 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 
 #### 응답
 
-| 이름 | 종류 | 형식 | 필수 | 설명 |
+| 이름 | 구분 | 타입 | 필수 | 설명 |
 | --- | --- | --- | --- | --- |
 | ruleNo | Array Body | Integer | O | 점검 항목 번호 |
 | status | Array Body | String | O | 점검 결과(critical: 위험, warning: 주의, interest: 관심, good: 양호) |
