@@ -6,11 +6,11 @@ API 사용을 위해서는 API 엔드포인트와 토큰이 필요합니다.
 ### API 엔드포인트
 | 리전 | 엔드포인트 |
 | --- | ----- |
-| 모든 리전 | [https://advisor.api.nhncloudservice.com](https://advisor.api.nhncloudservice.com/) |
+| 모든 리전 | [https://security-advisor.api.gov-nhncloudservice.com](https://security-advisor.api.gov-nhncloudservice.com/) |
 
 ### 인증 토큰 발급
 Seucirty Advisor는 API 인증/인가를 받기 위해 NHN Cloud 토큰을 이용합니다.
-[NHN Cloud API 호출 및 인증](https://docs.nhncloud.com/ko/nhncloud/ko/public-api/api-authentication/)을 확인하여 인증 토큰 사용에 필요한 정보를 확인합니다.
+[NHN Cloud API 호출 및 인증](https://docs.gov-nhncloud.com/ko/nhncloud/ko/public-api/api-authentication-gov/)을 확인하여 인증 토큰 사용에 필요한 정보를 확인합니다.
 ## API 사용 공통 정보
 
 ### API 요청 공통 정보
