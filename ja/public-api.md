@@ -6,7 +6,7 @@ APIを使用するには、APIエンドポイントとトークンが必要で�
 ### APIエンドポイント
 | リージョン | エンドポイント |
 | --- | ----- |
-| 全てのリージョン | [https://advisor.api.nhncloudservice.com](https://advisor.api.nhncloudservice.com/) |
+| 全てのリージョン | [https://security-advisor.api.nhncloudservice.com](https://security-advisor.api.nhncloudservice.com/) |
 
 ### 認証トークン発行
 Seucirty AdvisorはAPI認証/認可を受けるためにNHN Cloudトークンを使用します。
