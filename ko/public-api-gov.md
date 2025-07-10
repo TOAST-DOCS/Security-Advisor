@@ -22,6 +22,7 @@ API를 사용하려면 다음과 같은 정보가 필요합니다.
 | 이름 | 종류 | 형식 | 필수 | 설명 |
 | --- | --- | --- | --- | --- |
 | x-nhn-authorization | Header | String | O | 토큰 |
+
 * 서비스 Appkey
     * Security Advisor 콘솔의 오른쪽 상단 **URL \& Appkey** 메뉴 또는 프로젝트 관리의 **이용 중인 서비스**에서 확인할 수 있습니다.
     * 서비스 URL Path에 Appkey가 포함됩니다.
