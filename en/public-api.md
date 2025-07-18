@@ -10,7 +10,7 @@ To use the APIs, you need an API endpoint and a token.
 
 ### Obtain the Authentication Token
 Security Advisor uses the NHN Cloud token for API authentication and authorization.
-Refer to [NHN Cloud API Call and Authentication](https://docs.nhncloud.com/ko/nhncloud/ko/public-api/api-authentication/) for the necessary information on using the authentication token.
+Refer to [NHN Cloud API Call and Authentication](https://docs.nhncloud.com/en/nhncloud/en/public-api/api-authentication/) for the necessary information on using the authentication token.
 
 ## API Common Information
 
