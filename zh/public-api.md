@@ -6,7 +6,7 @@ To use the APIs, you need an API endpoint and a token.
 ### API Endpoints
 | Region | Endpoint |
 | --- | ----- |
-| All regions | [https://security-advisor.api.nhncloudservice.com](https://security-advisor.api.nhncloudservice.com) |
+| All regions | `https://security-advisor.api.nhncloudservice.com` |
 
 ### Obtain the Authentication Token
 Security Advisor uses the NHN Cloud token for API authentication and authorization.
@@ -164,7 +164,7 @@ This API does not require a request body.
 Retrieves summary information of the most recent inspection result.
 
 ```
-GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}&page={page}&size={size}"
+GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}"
 ```
 
 #### Request
