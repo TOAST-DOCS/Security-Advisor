@@ -165,7 +165,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 마지막 점검 결과에 대한 요약 정보를 조회합니다.
 
 ```
-GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}&page={page}&size={size}"
+GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}"
 ```
 
 #### 요청
