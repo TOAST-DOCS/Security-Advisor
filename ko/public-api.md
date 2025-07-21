@@ -6,7 +6,7 @@ API 사용을 위해서는 API 엔드포인트와 토큰이 필요합니다.
 ### API 엔드포인트
 | 리전 | 엔드포인트 |
 | --- | ----- |
-| 모든 리전 | [https://advisor.api.nhncloudservice.com](https://advisor.api.nhncloudservice.com/) |
+| 모든 리전 | `https://advisor.api.nhncloudservice.com` |
 
 ### 인증 토큰 발급
 Seucirty Advisor는 API 인증/인가를 받기 위해 NHN Cloud 토큰을 이용합니다.
@@ -164,7 +164,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 마지막 점검 결과에 대한 요약 정보를 조회합니다.
 
 ```
-GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}&page={page}&size={size}"
+GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}"
 ```
 
 #### 요청
