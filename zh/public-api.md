@@ -169,7 +169,7 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 
 #### Request
 
-This API does not require a request body.
+This API does not require a request body..
 
 | Name | Type | Format | Required | Description |
 | --- | --- | --- | --- | --- |
