@@ -8,9 +8,11 @@ To use the APIs, you need an API endpoint and a token.
 | --- | ----- |
 | All regions | `https://security-advisor.api.nhncloudservice.com` |
 
-### Obtain the Authentication Token
+### Authentication and Permission
 Security Advisor uses the NHN Cloud token for API authentication and authorization.
-Refer to [NHN Cloud API Call and Authentication](https://docs.nhncloud.com/en/nhncloud/en/public-api/api-authentication/) for the necessary information on using the authentication token.
+Refer to the [User Access Key Token](docs.nhncloud.com/en/nhncloud/en/public-api/user-access-key-token) for the necessary information on using the authentication token.
+
+Appkey is required to use the Security Advisor API. The Appkey is included in the request URL to identify and specify a particular resource when making API calls. For more information on checking and using Appkeys, please refer to the  [Appkey](docs.nhncloud.com/en/nhncloud/en/public-api/appkey).
 
 ## API Common Information
 
