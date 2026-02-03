@@ -9,7 +9,7 @@ APIを使用するには、APIエンドポイントとトークンが必要で�
 | --- | ----- |
 | 全てのリージョン | `https://security-advisor.api.nhncloudservice.com` |
 
-### 認証トークン発行
+### 認証及び権限
 Seucirty AdvisorはAPI認証/認可を受けるためにNHN Cloudトークンを使用します。
 [User Access Keyトークン](docs.nhncloud.com/ja/nhncloud/ja/public-api/user-access-key-token)を確認し、認証トークン使用に必要な情報を確認してください。
 
