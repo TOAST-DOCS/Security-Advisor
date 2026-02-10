@@ -8,9 +8,13 @@ APIを使用するには、APIエンドポイントとトークンが必要で�
 | --- | ----- |
 | 全てのリージョン | `https://security-advisor.api.nhncloudservice.com` |
 
-### 認証トークン発行
+### 認証及び権限
 Seucirty AdvisorはAPI認証/認可を受けるためにNHN Cloudトークンを使用します。
-[NHN Cloud API呼び出し及び認証](https://docs.nhncloud.com/ko/nhncloud/ko/public-api/api-authentication/)を確認し、認証トークン使用に必要な情報を確認してください。
+[User Access Keyトークン](docs.nhncloud.com/ja/nhncloud/ja/public-api/user-access-key-token)を確認し、認証トークン使用に必要な情報を確認してください。
+
+Security Advisor APIを使用するには、Appkeyが必要です。Appkeyは、API呼び出し時にリクエストURLに含めて特定のリソースを指定し、識別するために使用されます。
+Appkeyの確認及び使用に関する詳細は、[Appkey](docs.nhncloud.com/ja/nhncloud/ja/public-api/appkey)を参照してください。
+
 ## API使用共通情報
 
 ### APIリクエスト共通情報
