@@ -10,10 +10,10 @@ API 사용을 위해서는 API 엔드포인트와 토큰이 필요합니다.
 
 ### 인증 및 권한
 Seucirty Advisor는 API 인증/인가를 받기 위해 NHN Cloud 토큰을 이용합니다.
-[User Access Key 토큰](docs.gov-nhncloud.com/ko/nhncloud/ko/public-api/user-access-key-token-gov)을 확인하여 인증 토큰 사용에 필요한 정보를 확인합니다.
+[User Access Key 토큰](https://docs.gov-nhncloud.com/ko/nhncloud/ko/public-api/user-access-key-token-gov)을 확인하여 인증 토큰 사용에 필요한 정보를 확인합니다.
 
 Security Advisor API를 사용하려면 Appkey가 필요합니다. Appkey는 API 호출 시 요청 URL에 포함하여 특정 리소스를 가리키고 식별하는 데 사용됩니다.
-Appkey 확인 및 사용에 대한 자세한 내용은 [Appkey](docs.gov-nhncloud.com/ko/nhncloud/ko/public-api/appkey-gov)를 참고하세요.
+Appkey 확인 및 사용에 대한 자세한 내용은 [Appkey](https://docs.gov-nhncloud.com/ko/nhncloud/ko/public-api/appkey-gov)를 참고하세요.
 
 ## API 사용 공통 정보
 
