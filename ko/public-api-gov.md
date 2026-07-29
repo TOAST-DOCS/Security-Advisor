@@ -15,6 +15,7 @@ Seucirty Advisor는 API 인증/인가를 받기 위해 NHN Cloud 토큰을 이�
 Security Advisor API를 사용하려면 Appkey가 필요합니다. Appkey는 API 호출 시 요청 URL에 포함하여 특정 리소스를 가리키고 식별하는 데 사용됩니다.
 Appkey 확인 및 사용에 대한 자세한 내용은 [Appkey](docs.gov-nhncloud.com/ko/nhncloud/ko/public-api/appkey-gov)를 참고하세요.
 
+
 ## API 사용 공통 정보
 
 ### API 요청 공통 정보
@@ -27,9 +28,8 @@ API를 사용하려면 다음과 같은 정보가 필요합니다.
 | --- | --- | --- | --- | --- |
 | x-nhn-authorization | Header | String | O | 토큰 |
 
-
 * 서비스 Appkey
-    * Security Advisor 콘솔의 오른쪽 상단 **URL & Appkey** 메뉴 또는 프로젝트 관리의 **이용 중인 서비스**에서 확인할 수 있습니다.
+    * Security Advisor 콘솔의 오른쪽 상단 **URL \& Appkey** 메뉴 또는 프로젝트 관리의 **이용 중인 서비스**에서 확인할 수 있습니다.
     * 서비스 URL Path에 Appkey가 포함됩니다.
 
 ### API 응답 공통 정보
