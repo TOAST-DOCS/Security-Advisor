@@ -1,24 +1,31 @@
+<!-- pre-align:aligned sig=944f18b7baba -->
 
-## Security > Security Advisor > APIガイド
+<a id="security-security-advisor-api-guide"></a>
+## Security > Security Advisor > APIガイド { #security-security-advisor-api-guide }
 Security Advisor Public APIを説明します。
-## 共通準備事項
+<a id="common-preparations"></a>
+## 共通準備事項 { #common-preparations }
 APIを使用するには、APIエンドポイントとトークンが必要です。
 
-### APIエンドポイント
+<a id="api-endpoints"></a>
+### APIエンドポイント { #api-endpoints }
 | リージョン | エンドポイント |
 | --- | ----- |
 | 全てのリージョン | `https://security-advisor.api.nhncloudservice.com` |
 
-### 認証及び権限
+<a id="authentication-and-permission"></a>
+### 認証及び権限 { #authentication-and-permission }
 Seucirty AdvisorはAPI認証/認可を受けるためにNHN Cloudトークンを使用します。
 [User Access Keyトークン](docs.nhncloud.com/ja/nhncloud/ja/public-api/user-access-key-token)を確認し、認証トークン使用に必要な情報を確認してください。
 
 Security Advisor APIを使用するには、Appkeyが必要です。Appkeyは、API呼び出し時にリクエストURLに含めて特定のリソースを指定し、識別するために使用されます。
 Appkeyの確認及び使用に関する詳細は、[Appkey](docs.nhncloud.com/ja/nhncloud/ja/public-api/appkey)を参照してください。
 
-## API使用共通情報
+<a id="api-common-information"></a>
+## API使用共通情報 { #api-common-information }
 
-### APIリクエスト共通情報
+<a id="api-common-request-information"></a>
+### APIリクエスト共通情報 { #api-common-request-information }
 
 APIを使用するには、以下の情報が必要です。
 
@@ -32,7 +39,8 @@ APIを使用するには、以下の情報が必要です。
     * Security Advisorコンソールの右上にある **URL & Appkey** メニューまたはプロジェクト管理の **利用中のサービス** で確認できます。
     * サービスURL PathにAppkeyが含まれます。
 
-### APIレスポンス共通情報
+<a id="api-common-response-information"></a>
+### APIレスポンス共通情報 { #api-common-response-information }
 
 * APIリクエストに対するレスポンスとして、以下のレスポンスコードを返すことができます。
     * 200 OK
@@ -53,9 +61,11 @@ APIを使用するには、以下の情報が必要です。
 * <span style="color:rgb(49, 51, 56);">共通Response body以外の詳細なレスポンス結果はレスポンス本文ヘッダを参照します。</span>
 
 > [注意] APIレスポンスガイドに明示されていないフィールドが表示される場合があります。これらのフィールドはNHN Cloud内部用であり、事前の通知なしに変更される可能性があるため、使用しないでください。
-## Security Advisor
+<a id="security-advisor"></a>
+## Security Advisor { #security-advisor }
 
-### 最終点検日照会
+<a id="query-last-inspection-date"></a>
+### 最終点検日照会 { #query-last-inspection-date }
 
 最終点検日を照会します。
 
@@ -96,7 +106,8 @@ GET "/advisor/v1.0/appKey/{appKey}/last_inspection_date"
 <br>
 </details>
 
-### 自動点検設定照会
+<a id="query-auto-inspection-settings"></a>
+### 自動点検設定照会 { #query-auto-inspection-settings }
 
 管理者が設定した自動点検設定値を照会します。
 
@@ -104,6 +115,7 @@ GET "/advisor/v1.0/appKey/{appKey}/last_inspection_date"
 GET "/advisor/v1.0/appKey/{appKey}/setting"
 ```
 
+<a id="query-auto-inspection-settings-request"></a>
 #### リクエスト
 
 このAPIはリクエスト本文を要求しません。
@@ -112,6 +124,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 | --- | --- | --- | --- | --- |
 | appKey | URL | String | O | サービスAppkey |
 
+<a id="query-auto-inspection-settings-response"></a>
 #### レスポンス
 
 | 名前 | タイプ | 必須 | 説明 |
@@ -163,7 +176,8 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 <br>
 </details>
 
-### 最後の点検結果要約照会
+<a id="query-summary-of-last-inspection-result"></a>
+### 最後の点検結果要約照会 { #query-summary-of-last-inspection-result }
 
 最後の点検結果に対する要約情報を照会します。
 
@@ -171,6 +185,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}"
 ```
 
+<a id="query-summary-of-last-inspection-result-request"></a>
 #### リクエスト
 
 このAPIはリクエスト本文を要求しません。
@@ -181,6 +196,7 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang
 | region | Query | String | O | リージョンコード(KR1:パンギョ、 KR2:ピョンチョン、<br>JP1:日本、 US1:米国) |
 | lang | Query | String | O | 言語コード(KO:ハングル、 EN:英語、 JA:日本語) |
 
+<a id="query-summary-of-last-inspection-result-response"></a>
 #### レスポンス
 
 | 名前 | タイプ | 必須 | 説明 |

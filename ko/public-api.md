@@ -1,23 +1,31 @@
-## Security > Security Advisor > API 가이드
+<!-- pre-align:aligned sig=944f18b7baba -->
+
+<a id="security-security-advisor-api-guide"></a>
+## Security > Security Advisor > API 가이드 { #security-security-advisor-api-guide }
 Security Advisor Public API를 설명합니다.
-## 공통 준비 사항
+<a id="common-preparations"></a>
+## 공통 준비 사항 { #common-preparations }
 API 사용을 위해서는 API 엔드포인트와 토큰이 필요합니다.
 
-### API 엔드포인트
+<a id="api-endpoints"></a>
+### API 엔드포인트 { #api-endpoints }
 | 리전 | 엔드포인트 |
 | --- | ----- |
 | 모든 리전 | `https://advisor.api.nhncloudservice.com` |
 
-### 인증 및 권한
+<a id="authentication-and-permission"></a>
+### 인증 및 권한 { #authentication-and-permission }
 Seucirty Advisor는 API 인증/인가를 받기 위해 NHN Cloud 토큰을 이용합니다.
 [User Access Key 토큰](docs.nhncloud.com/ko/nhncloud/ko/public-api/user-access-key-token)을 확인하여 인증 토큰 사용에 필요한 정보를 확인합니다.
 
 Security Advisor API를 사용하려면 Appkey가 필요합니다. Appkey는 API 호출 시 요청 URL에 포함하여 특정 리소스를 가리키고 식별하는 데 사용됩니다.
 Appkey 확인 및 사용에 대한 자세한 내용은 [Appkey](docs.nhncloud.com/ko/nhncloud/ko/public-api/appkey)를 참고하세요.
 
-## API 사용 공통 정보
+<a id="api-common-information"></a>
+## API 사용 공통 정보 { #api-common-information }
 
-### API 요청 공통 정보
+<a id="api-common-request-information"></a>
+### API 요청 공통 정보 { #api-common-request-information }
 
 API를 사용하려면 다음과 같은 정보가 필요합니다.
 
@@ -31,7 +39,8 @@ API를 사용하려면 다음과 같은 정보가 필요합니다.
     * Security Advisor 콘솔의 오른쪽 상단 **URL \& Appkey** 메뉴 또는 프로젝트 관리의 **이용 중인 서비스**에서 확인할 수 있습니다.
     * 서비스 URL Path에 Appkey가 포함됩니다.
 
-### API 응답 공통 정보
+<a id="api-common-response-information"></a>
+### API 응답 공통 정보 { #api-common-response-information }
 
 * API 요청에 대한 응답으로 아래와 같이 응답 코드를 반환할 수 있습니다.
     * 200 OK
@@ -53,9 +62,11 @@ API를 사용하려면 다음과 같은 정보가 필요합니다.
 
 > [주의] API 응답 가이드에 명시되지 않은 필드가 나타날 수 있습니다. 이런 필드는 NHN Cloud 내부 용도로 사용되며 사전 공지 없이 변경될 수 있으므로 사용하지 않습니다.
 
-## Security Advisor
+<a id="security-advisor"></a>
+## Security Advisor { #security-advisor }
 
-### 최종 점검 날짜 조회
+<a id="query-last-inspection-date"></a>
+### 최종 점검 날짜 조회 { #query-last-inspection-date }
 
 최종 점검 날짜를 조회합니다.
 
@@ -96,7 +107,8 @@ GET "/advisor/v1.0/appKey/{appKey}/last_inspection_date"
 <br>
 </details>
 
-### 자동 점검 설정 조회
+<a id="query-auto-inspection-settings"></a>
+### 자동 점검 설정 조회 { #query-auto-inspection-settings }
 
 관리자가 설정한 자동 점걸 설정 값을 조회합니다.
 
@@ -104,6 +116,7 @@ GET "/advisor/v1.0/appKey/{appKey}/last_inspection_date"
 GET "/advisor/v1.0/appKey/{appKey}/setting"
 ```
 
+<a id="query-auto-inspection-settings-request"></a>
 #### 요청
 
 이 API는 요청 본문을 요구하지 않습니다.
@@ -112,6 +125,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 | --- | --- | --- | --- | --- |
 | appKey | URL | String | O | 서비스 Appkey |
 
+<a id="query-auto-inspection-settings-response"></a>
 #### 응답
 
 | 이름 | 타입 | 필수 | 설명 |
@@ -163,7 +177,8 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 <br>
 </details>
 
-### 마지막 점검 결과 요약 조회
+<a id="query-summary-of-last-inspection-result"></a>
+### 마지막 점검 결과 요약 조회 { #query-summary-of-last-inspection-result }
 
 마지막 점검 결과에 대한 요약 정보를 조회합니다.
 
@@ -171,6 +186,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}"
 ```
 
+<a id="query-summary-of-last-inspection-result-request"></a>
 #### 요청
 
 이 API는 요청 본문을 요구하지 않습니다.
@@ -181,6 +197,7 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 | region | Query | String | O | 리전 코드(KR1: 판교, KR2: 평촌,<br>JP1: 일본, US1: 미국) |
 | lang | Query | String | O | 언어 코드(KO: 한글, EN: 영어, JA: 일본어) |
 
+<a id="query-summary-of-last-inspection-result-response"></a>
 #### 응답
 
 | 이름 | 타입 | 필수 | 설명 |

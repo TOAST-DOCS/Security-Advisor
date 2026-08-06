@@ -1,22 +1,30 @@
-## Security > Security Advisor > API Guide
+<!-- pre-align:aligned sig=944f18b7baba -->
+
+<a id="security-security-advisor-api-guide"></a>
+## Security > Security Advisor > API Guide { #security-security-advisor-api-guide }
 The guide describes Security Advisor Public API.
-## Common Preparations
+<a id="common-preparations"></a>
+## Common Preparations { #common-preparations }
 To use the APIs, you need an API endpoint and a token.
 
-### API Endpoints
+<a id="api-endpoints"></a>
+### API Endpoints { #api-endpoints }
 | Region | Endpoint |
 | --- | ----- |
 | All regions | `https://security-advisor.api.nhncloudservice.com` |
 
-### Authentication and Permission
+<a id="authentication-and-permission"></a>
+### Authentication and Permission { #authentication-and-permission }
 Security Advisor uses the NHN Cloud token for API authentication and authorization.
 Refer to the [User Access Key Token](docs.nhncloud.com/en/nhncloud/en/public-api/user-access-key-token) for the necessary information on using the authentication token.
 
 Appkey is required to use the Security Advisor API. The Appkey is included in the request URL to identify and specify a particular resource when making API calls. For more information on checking and using Appkeys, please refer to the  [Appkey](docs.nhncloud.com/en/nhncloud/en/public-api/appkey).
 
-## API Common Information
+<a id="api-common-information"></a>
+## API Common Information { #api-common-information }
 
-### API Common Request Information
+<a id="api-common-request-information"></a>
+### API Common Request Information { #api-common-request-information }
 
 To use the API, the following information is required.
 
@@ -30,7 +38,8 @@ To use the API, the following information is required.
     * You can check the service Appkey from the **URL & Appkey** menu at the top right of the Security Advisor console or from **Services in Use** under Project Management.
     * The Appkey is included in the service URL path.
 
-### API Common Response Information
+<a id="api-common-response-information"></a>
+### API Common Response Information { #api-common-response-information }
 
 * The following response codes may be returned as a result of an API request.
     * 200 OK
@@ -51,9 +60,11 @@ To use the API, the following information is required.
 * <span style="color:rgb(49, 51, 56);">For details beyond the common response body, see Response Body Header.</span>
 
 > [Caution] API response may show the fields not specified by the guide. These fields are internally used by NHN Cloud, and not used because they are subject to change without prior notice.
-## Security Advisor
+<a id="security-advisor"></a>
+## Security Advisor { #security-advisor }
 
-### Query Last Inspection Date
+<a id="query-last-inspection-date"></a>
+### Query Last Inspection Date { #query-last-inspection-date }
 
 Retrieves last inspection date.
 
@@ -94,7 +105,8 @@ This API does not require a request body.
 <br>
 </details>
 
-### Query Auto Inspection Settings
+<a id="query-auto-inspection-settings"></a>
+### Query Auto Inspection Settings { #query-auto-inspection-settings }
 
 Retrieves the auto inspection settings configured by the administrator.
 
@@ -102,6 +114,7 @@ Retrieves the auto inspection settings configured by the administrator.
 GET "/advisor/v1.0/appKey/{appKey}/setting"
 ```
 
+<a id="query-auto-inspection-settings-request"></a>
 #### Request
 
 This API does not require a request body.
@@ -110,6 +123,7 @@ This API does not require a request body.
 | --- | --- | --- | --- | --- |
 | appKey | URL | String | O | Service Appkey |
 
+<a id="query-auto-inspection-settings-response"></a>
 #### Response
 
 | Name | Format | Required | Description |
@@ -161,7 +175,8 @@ This API does not require a request body.
 <br>
 </details>
 
-### Query Summary of Last Inspection Result
+<a id="query-summary-of-last-inspection-result"></a>
+### Query Summary of Last Inspection Result { #query-summary-of-last-inspection-result }
 
 Retrieves summary information of the most recent inspection result.
 
@@ -169,6 +184,7 @@ Retrieves summary information of the most recent inspection result.
 GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}"
 ```
 
+<a id="query-summary-of-last-inspection-result-request"></a>
 #### Request
 
 This API does not require a request body.
@@ -179,6 +195,7 @@ This API does not require a request body.
 | region | Query | String | O | Region code (KR1: Pangyo, KR2: Pyeongchon,<br>JP1: Japan, US1: United States) |
 | lang | Query | String | O | Language code (KO: Korean, EN: English, JA: Japanese) |
 
+<a id="query-summary-of-last-inspection-result-response"></a>
 #### Response
 
 | Name | Format | Required | Description |
