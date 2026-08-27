@@ -1,3 +1,4 @@
+
 ## Security > Security Advisor > APIガイド
 Security Advisor Public APIを説明します。
 ## 共通準備事項
@@ -28,7 +29,7 @@ APIを使用するには、以下の情報が必要です。
 | x-nhn-authorization | Header | String | O | トークン |
 
 * サービスAppkey
-    * Security Advisorコンソールの右上にある **URL & Appkey** メニューまたはプロジェクト管理の **利用中のサービス** で確認できます。
+    * Security Advisorコンソールの右上にある **URL & Appkey** メニューまたはプロジェクト管理の **利用中のサービス** で確認できます。
     * サービスURL PathにAppkeyが含まれます。
 
 ### APIレスポンス共通情報
@@ -39,7 +40,7 @@ APIを使用するには、以下の情報が必要です。
     * 404 Not Found
     * 405 Method Not Allowed
     * 500 Internal Server Error
-* 全てのレスポンスコードは共通のResponse bodyを含みます。
+* 全てのレスポンスコードは共通のResponse bodyを含みます。
     * 共通Response body
 
 | 名前 | タイプ | 説明 |
@@ -49,7 +50,7 @@ APIを使用するには、以下の情報が必要です。
 | header.resultCode | Integer | 1:正常<br>その他:エラー |
 | header.resultMessage | String | "SUCCESS":正常<br>その他:エラー原因メッセージ |
 
-* <span style="color:rgb(49, 51, 56);">共通Response body以外の詳細なレスポンス結果はレスポンス本文ヘッダを参照します。</span>
+* <span style="color:rgb(49, 51, 56);">共通Response body以外の詳細なレスポンス結果はレスポンス本文ヘッダを参照します。</span>
 
 > [注意] APIレスポンスガイドに明示されていないフィールドが表示される場合があります。これらのフィールドはNHN Cloud内部用であり、事前の通知なしに変更される可能性があるため、使用しないでください。
 ## Security Advisor
@@ -100,7 +101,7 @@ GET "/advisor/v1.0/appKey/{appKey}/last_inspection_date"
 管理者が設定した自動点検設定値を照会します。
 
 ```
-GET "/advisor/v1.0/appKey/{appKey}/setting"
+GET "/advisor/v1.0/appKey/{appKey}/setting"
 ```
 
 #### リクエスト
@@ -167,7 +168,7 @@ GET "/advisor/v1.0/appKey/{appKey}/setting"
 最後の点検結果に対する要約情報を照会します。
 
 ```
-GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}"
+GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lang}"
 ```
 
 #### リクエスト
@@ -322,3 +323,4 @@ GET "/advisor/v1.0/appKey/{appKey}/inspection_results?region={region}&lang={lan
 ```
 
 </details>
+

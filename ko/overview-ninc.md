@@ -9,20 +9,6 @@ Security Advisor는 고객이 생성한 NHN Cloud 조직 및 프로젝트 리소
 * RDS에 대한 접근 설정을 점검하여 불필요한 접근을 차단할 수 있습니다.
 * 주기적인 자동 점검 기능을 제공하고 결과를 이메일로 전송할 수 있습니다.
 
-## 점검 대상 및 서비스 리전
-### 선택 점검 리전 별 지원 범위
-|구분|지원 리전|
-|---|---|
-|조직으로 구분된 점검 항목|한국(판교) 리전, 한국(평촌) 리전|
-|프로젝트로 구분된 점검 항목|한국(판교) 리전, 한국(평촌) 리전|
-
-### 선택 점검 항목의 프로젝트 항목 점검 대상 리소스
-|구분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|점검 항목|대상 리소스|비고|
-|---|---|---|---|
-|프로젝트 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |Security Groups 점검|Instance, Security Groups|Database Instance, NKS 클러스터 제외|
-|프로젝트 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Database Security Groups 점검|Database Instance(MS-SQL Instance, MySQL Instance, PostgreSQL Instance, CUBIRD Instance, MariaDB Instance, Tibero Instance, Redis Instance), Security Groups|
-|프로젝트 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |RDS 접근제어 점검 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RDS for MySQL, RDS for MariaDB|RDS for MySQL, MariaDB 는 판교 리전에서만 서비스되므로 판교 리전에서만 점검 가능|
-
 ## 프로젝트 멤버 서비스 이용 역할
 
 Security Advisor는 프로젝트 서비스입니다.
@@ -37,9 +23,6 @@ Security Advisor는 프로젝트 서비스입니다.
 ## 서비스 사용 절차
 ### 서비스 활성화 절차
 서비스 활성화 권한을 가진 계정으로 NHN Cloud에 로그인합니다. Security 카테고리에서 Security Advisor를 클릭하여 서비스를 활성화합니다.
-![이미지1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_01.png)
-
 ### 서비스 비활성화 절차
 서비스 활성화 권한을 가진 계정으로 NHN Cloud에 로그인합니다. 프로젝트 이름 옆의 톱니바퀴 아이콘을 클릭하여 **프로젝트 관리** 메뉴로 진입합니다.
 **이용 중인 서비스**에서 Security Advisor 항목의 **비활성화**를 클릭하여 서비스를 종료합니다.
-![이미지2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_02.png)

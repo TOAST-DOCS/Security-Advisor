@@ -71,3 +71,4 @@ After change the settings, must click **Save** to apply the changes.
 * You can enable auto inspection by setting **Inspection Cycle**. The inspection result is automatically reflected in the console, and sent to the email address if set.
 * You can select **Auto Inspection Item**.
 ![Image 9](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_09.png)
+
