@@ -47,10 +47,10 @@ Project managers can grant roles to NHN Cloud members or IAM members registered 
 <a id="service-activation-procedure"></a>
 ### Service Activation Procedure { #service-activation-procedure }
 Log in to NHN Cloud with an account that has permissions to activate services. In the Security category, click Security Advisor to enable the service.
-![Image 1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_01.png)
+![Image 1](../static/images/overview_en_01.png)
 
 <a id="service-deactivation-procedure"></a>
 ### Service Deactivation Procedure { #service-deactivation-procedure }
 Log in to NHN Cloud with an account that has permissions to activate services. Click the gear icon next to the project name to go to **Project Management**.
 Click **Disable** for Security Advisor from **Services in Use** to terminate the service.
-![Image 2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_en_02.png)
+![Image 2](../static/images/overview_en_02.png)
