@@ -19,7 +19,7 @@ Security Advisor 점검 항목에서 점검한 결과를 확인할 수 있습니
   - 엑셀 파일에는 점검 항목에서 가장 마지막으로 선택 점검한 결과(점검 항목의 기본 정보와 탐지 리소스, 점검 시간)가 저장되어 있습니다.
   - 엑셀 파일에는 예외 리소스와 설정 정보는 포함되지 않습니다.
   - 서비스 활성화 이후 한번도 선택 점검을 진행하지 않아 점검 결과가 없을 경우 엑셀 파일을 다운로드할 수 있지만 파일은 열리지 않습니다.
-![이미지3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_03.png)
+![이미지3](../static/images/overview_03.png)
 
 
 ## 점검 항목
@@ -32,28 +32,28 @@ Security Advisor 점검 항목에서 점검한 결과를 확인할 수 있습니
 2. 점검할 항목을 체크한 뒤 **선택 점검**을 클릭합니다.
 3. 점검이 완료되면 점검 항목별로 결과를 확인합니다.
 4. 프로젝트로 구분된 항목은 리전을 변경하여 선택 점검합니다.
-![이미지4](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_04.png)
+![이미지4](../static/images/overview_04.png)
 
 ### 기본 정보
 
 * 점검 항목에 대한 설명을 확인할 수 있습니다.
 * 탐지 리소스 개수, 예외 리소스 개수, 최종 점검일을 확인할 수 있습니다.
 * 알림 기준을 확인하고 권장 조치를 참고하여 탐지된 리소스를 조치할 수 있습니다.
-![이미지5](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_05.png)
+![이미지5](../static/images/overview_05.png)
 
 ### 탐지 리소스
 
 * 점검 항목별 알림 기준에 따라 탐지된 리소스의 상세 정보를 확인할 수 있습니다.
 * 탐지된 리소스 중 원하는 항목을 체크하여 **선택 예외**를 클릭하면 다음 점검 시 해당 리소스는 예외 처리됩니다.
-![이미지6](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_06.png)
-![이미지7](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_07.png)
+![이미지6](../static/images/overview_06.png)
+![이미지7](../static/images/overview_07.png)
 
 ### 예외 목록
 
 * 점검 예외 처리된 항목을 확인할 수 있습니다.
 * **변경**을 클릭하여 메모를 작성할 수 있습니다.
 * 원하는 항목을 체크하여 **예외 해제**를 클릭하면 점검 대상에 포함시킬 수 있습니다.
-![이미지10](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_11.png)
+![이미지10](../static/images/overview_11.png)
 
 ## 설정
 
@@ -65,8 +65,8 @@ Security Advisor 점검 항목에서 점검한 결과를 확인할 수 있습니
 
 * 점검 결과를 수신할 관리자의 이메일 주소를 설정합니다. 점검 결과가 전달되므로 이메일 주소를 정확하게 입력하십시오.
 * 이메일은 필수 입력값은 아닙니다.
-![이미지8](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_08.png)
+![이미지8](../static/images/overview_08.png)
 ### 점검 설정
 * 원하는 **점검 주기**를 설정하여 자동으로 점검되도록 설정할 수 있습니다. 점검된 결과는 자동으로 콘솔에 반영되며, 이메일 주소를 설정한 경우 이메일 수신자에게 결과가 발송됩니다.
 * **자동 점검 항목**을 선택할 수 있습니다.
-![이미지9](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_09.png)
+![이미지9](../static/images/overview_09.png)

@@ -47,10 +47,10 @@ Security Advisorはプロジェクトサービスです。
 <a id="service-activation-procedure"></a>
 ### サービスの有効化手順 { #service-activation-procedure }
 サービスの有効化権限を持つアカウントでNHN Cloudにログインします。SecurityカテゴリーでSecurity Advisorをクリックしてサービスを有効にします。
-![画像1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_jp_01.png)
+![画像1](../static/images/overview_jp_01.png)
 
 <a id="service-deactivation-procedure"></a>
 ### サービスの無効化手順 { #service-deactivation-procedure }
 サービスの有効化権限を持つアカウントでNHN Cloudにログインします。プロジェクト名の横の歯車アイコンをクリックして**プロジェクト管理**メニューに入ります。
 **利用中のサービス**でSecurity Advisor項目の**無効化**をクリックしてサービスを終了します。
-![画像2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_jp_02.png)
+![画像2](../static/images/overview_jp_02.png)

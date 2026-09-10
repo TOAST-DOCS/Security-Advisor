@@ -37,9 +37,9 @@ Security Advisor는 프로젝트 서비스입니다.
 ## 서비스 사용 절차
 ### 서비스 활성화 절차
 서비스 활성화 권한을 가진 계정으로 NHN Cloud에 로그인합니다. Security 카테고리에서 Security Advisor를 클릭하여 서비스를 활성화합니다.
-![이미지1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_01.png)
+![이미지1](../static/images/overview_01.png)
 
 ### 서비스 비활성화 절차
 서비스 활성화 권한을 가진 계정으로 NHN Cloud에 로그인합니다. 프로젝트 이름 옆의 톱니바퀴 아이콘을 클릭하여 **프로젝트 관리** 메뉴로 진입합니다.
 **이용 중인 서비스**에서 Security Advisor 항목의 **비활성화**를 클릭하여 서비스를 종료합니다.
-![이미지2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_securityadvisor/overview_02.png)
+![이미지2](../static/images/overview_02.png)
